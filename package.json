@@ -1,0 +1,22 @@
+{
+  "name": "husky-hooks",
+  "version": "1.0.0",
+  "description": "Husky hooks for scripts can be customized, such as verify commit message.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "bin": "esm/bin.js",
+  "main": "esm/index.js",
+  "type": "module",
+  "author": "eyunhua",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.1.1"
+  }
+}
