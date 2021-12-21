@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1"
+  },
+  "engines": {
+    "node": ">= 13.2.0"
   }
 }
