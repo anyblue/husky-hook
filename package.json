@@ -1,5 +1,5 @@
 {
-  "name": "husky-hooks",
+  "name": "husky-hook",
   "version": "1.0.0",
   "description": "Husky hooks for scripts can be customized, such as verify commit message.",
   "scripts": {

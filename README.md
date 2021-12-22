@@ -1,4 +1,4 @@
-# husky-hooks
+# husky-hook
 
 > customize husky hooks, such as verify the commit message.
 
@@ -6,31 +6,31 @@
 
 **with `npm`:**
 ```ts
-npm install husky-hooks --save-dev
+npm install husky-hook --save-dev
 ```
 **or with `yarn`:**
 ```ts
-yarn add husky-hooks --dev
+yarn add husky-hook --dev
 ```
 
 ## Usage
 
-### Enable husky-hooks
+### Enable husky-hook
 
 **with `npm`:**
 
 run:
 
 ```ts
-npx husky-hooks install
+npx husky-hook install
 ```
 To automatically have husky hooks enabled after install, edit `package.json`
 ```ts
-npm set-script prepare "husky-hooks install"
+npm set-script prepare "husky-hook install"
 ```
 **or with `yarn`:**
 ```ts
-yarn husky-hooks install
+yarn husky-hook install
 ```
 To automatically have Git hooks enabled after install, edit `package.json`
 
@@ -40,7 +40,7 @@ To automatically have Git hooks enabled after install, edit `package.json`
 {
   "private": true,
   "scripts": {
-    "postinstall": "husky-hooks install"
+    "postinstall": "husky-hook install"
   }
 }
 ```
@@ -50,21 +50,21 @@ To automatically have Git hooks enabled after install, edit `package.json`
 {
   "private": false,
   "scripts": {
-    "postinstall": "husky install",
+    "postinstall": "husky-hook install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   }
 }
 ```
 
-## Uninstall husky-hooks
+## Uninstall husky-hook
 
-Remove `"prepare/postinstall": "husky install" `from `package.json` and run:
+Remove `"prepare/postinstall": "husky-hook install" `from `package.json` and run:
 ```ts
-npx husky-hooks uninstall
+npx husky-hook uninstall
 ```
 ```ts
-npm uninstall husky-hooks
+npm uninstall husky-hook
 ```
 
 ## Reference
