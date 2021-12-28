@@ -1,12 +1,9 @@
 import fs from 'fs';
-import {resolve, dirname, join} from 'path';
+import {dirname, join} from 'path';
 import ora from 'ora';
-import { fileURLToPath } from 'url'
 import c from './constant.js';
 
-const __filename = fileURLToPath(import.meta.url)
-// Get the folder path where the current file is located
-const __dirname = resolve(dirname(__filename))
+const __dirname = dirname(new URL(import.meta.url).pathname);
 
 function path(dir) {
     return join(process.cwd(), dir);
