@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/anyblue/husky-hooks/compare/1.0.0...1.1.0) (2021-12-28)
+
+
+### Bug Fixes
+
+* **verify-commit-msg:** disable verify-commit-msg.js eslint check ([46ff8a6](https://github.com/anyblue/husky-hooks/commit/46ff8a6baa5bf9df73486a4aa9fcd6c6537bc8c9))
+* **version:** fix the problem that failed to get version number ([bf90471](https://github.com/anyblue/husky-hooks/commit/bf90471a21afd84ea7e1d751edd4954249b3bcc7))
+
+
+
 # 1.0.0 (2021-12-21)
 
 
