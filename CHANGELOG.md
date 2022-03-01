@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/anyblue/husky-hooks/compare/1.1.0...1.2.0) (2022-03-01)
+
+
+### Bug Fixes
+
+* **install:** modify husky install as the default installation ([7940257](https://github.com/anyblue/husky-hooks/commit/7940257300fc9520a3cb43938f10e96ae80444b2))
+
+
+
 # [1.1.0](https://github.com/anyblue/husky-hooks/compare/1.0.0...1.1.0) (2021-12-28)
 
 
