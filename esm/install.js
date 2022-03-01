@@ -12,10 +12,8 @@ function path(dir) {
 function install() {
     const spinner = ora(c.START_INSTALL).start();
     try {
-        // 不存在.husky文件夹时，生成.husky文件夹
-        if (!fs.existsSync(path('.husky'))) {
-            c.HUSKY(['install']);
-        }
+        // 运行husky install，生成husky文件，修改git默认hooksPath
+        c.HUSKY(['install']);
 
         // 不存在commit-msg钩子
         if (!fs.existsSync(path(c.P_MSG))) {
