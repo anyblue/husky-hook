@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/anyblue/husky-hooks/compare/1.2.0...1.3.0) (2022-11-30)
+
+
+### Bug Fixes
+
+* **commit-msg:** support running scripts in the .git directory ([1df3e69](https://github.com/anyblue/husky-hooks/commit/1df3e69d1ee7826ac9ae44a150d1c0287cc1d523))
+
+
+
 # [1.2.0](https://github.com/anyblue/husky-hooks/compare/1.1.0...1.2.0) (2022-03-01)
 
 
